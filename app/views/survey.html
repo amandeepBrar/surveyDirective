@@ -1,0 +1,9 @@
+<div>
+<p>{{survey.reviewQs}}</p>
+<hr>
+<ul>
+	<li style="list-style-type:none" ng-repeat="Q in survey.reviewQs">
+		<sr-panel ans='Q.surveyAnswer'></sr-panel><span> {{Q.question}}</span>
+	</li>
+</ul>
+</div>
